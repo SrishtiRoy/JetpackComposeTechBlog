@@ -9,7 +9,6 @@ A modern Android app built with Jetpack Compose that lists popular tech companie
 - Jetpack Compose UI
 - Navigation Component for Compose
 - WebView integration
-- Clean MVVM-friendly structure
 - Clickable list with Coil image loading
 
 
