@@ -1,0 +1,43 @@
+package com.dsr.techblog
+
+data class Company(val name: String, val url: String,val logoUrl:String)
+
+val companies = listOf(
+    Company("Airbnb", "https://medium.com/airbnb-engineering", "https://logo.clearbit.com/airbnb.com"),
+    Company("Amazon", "https://developer.amazon.com/blogs", "https://logo.clearbit.com/amazon.com"),
+    Company("Asana", "https://blog.asana.com/category/eng", "https://logo.clearbit.com/asana.com"),
+    Company("Atlassian", "https://developer.atlassian.com/blog", "https://logo.clearbit.com/atlassian.com"),
+    Company("Bittorrent", "http://engineering.bittorrent.com", "https://logo.clearbit.com/bittorrent.com"),
+    Company("Cloudera", "https://blog.cloudera.com", "https://logo.clearbit.com/cloudera.com"),
+    Company("Docker", "https://blog.docker.com", "https://logo.clearbit.com/docker.com"),
+    Company("Dropbox", "https://blogs.dropbox.com/tech", "https://logo.clearbit.com/dropbox.com"),
+    Company("eBay", "http://www.ebaytechblog.com", "https://logo.clearbit.com/ebay.com"),
+    Company("Facebook", "https://code.facebook.com/posts", "https://logo.clearbit.com/facebook.com"),
+    Company("GitHub", "https://githubengineering.com", "https://logo.clearbit.com/github.com"),
+    Company("Google", "https://developers.googleblog.com", "https://logo.clearbit.com/google.com"),
+    Company("Groupon", "https://engineering.groupon.com", "https://logo.clearbit.com/groupon.com"),
+    Company("Highscalability", "http://highscalability.com", "https://logo.clearbit.com/highscalability.com"),
+    Company("Instacart", "https://tech.instacart.com", "https://logo.clearbit.com/instacart.com"),
+    Company("Instagram", "https://engineering.instagram.com", "https://logo.clearbit.com/instagram.com"),
+    Company("Linkedin", "https://engineering.linkedin.com/blog", "https://logo.clearbit.com/linkedin.com"),
+    Company("Mixpanel", "https://mixpanel.com/blog", "https://logo.clearbit.com/mixpanel.com"),
+    Company("Netflix", "https://medium.com/netflix-techblog", "https://logo.clearbit.com/netflix.com"),
+    Company("Nextdoor", "https://engblog.nextdoor.com", "https://logo.clearbit.com/nextdoor.com"),
+    Company("PayPal", "https://www.paypal-engineering.com", "https://logo.clearbit.com/paypal.com"),
+    Company("Pinterest", "https://engineering.pinterest.com", "https://logo.clearbit.com/pinterest.com"),
+    Company("Quora", "https://engineering.quora.com", "https://logo.clearbit.com/quora.com"),
+    Company("Reddit", "https://redditblog.com", "https://logo.clearbit.com/reddit.com"),
+    Company("Salesforce", "https://engineering.salesforce.com/blog/", "https://logo.clearbit.com/salesforce.com"),
+    Company("Shopify", "https://engineering.shopify.com", "https://logo.clearbit.com/shopify.com"),
+    Company("Slack", "https://slack.engineering", "https://logo.clearbit.com/slack.com"),
+    Company("Soundcloud", "https://developers.soundcloud.com/blog", "https://logo.clearbit.com/soundcloud.com"),
+    Company("Spotify", "https://labs.spotify.com", "https://logo.clearbit.com/spotify.com"),
+    Company("Stripe", "https://stripe.com/blog/engineering", "https://logo.clearbit.com/stripe.com"),
+    Company("System design primer", "https://github.com/donnemartin/system-design-primer", "https://logo.clearbit.com/github.com"),
+    Company("Twitter", "https://blog.twitter.com/engineering/en_us.html", "https://logo.clearbit.com/twitter.com"),
+    Company("Thumbtack", "https://www.thumbtack.com/engineering", "https://logo.clearbit.com/thumbtack.com"),
+    Company("Uber", "http://eng.uber.com", "https://logo.clearbit.com/uber.com"),
+    Company("Yahoo", "https://developer.yahoo.com/blogs/", "https://logo.clearbit.com/yahoo.com"),
+    Company("Yelp", "https://engineeringblog.yelp.com", "https://logo.clearbit.com/yelp.com"),
+    Company("Zoom", "https://medium.com/zoom-developer-blog", "https://logo.clearbit.com/zoom.us")
+)
